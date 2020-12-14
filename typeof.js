@@ -1,7 +1,7 @@
-function fifth() {
-	if (fifth.length < 4) {
+function fifth(...args) {
+	if (args.length < 5) {
 		return "Not enough arguments"
 	} else {
-		return typeof fifth[4];
+		return typeof args[4];
 	}
 }
