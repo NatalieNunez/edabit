@@ -5,3 +5,6 @@ function fifth(...args) {
 		return typeof args[4];
 	}
 }
+function fifth(...args) {
+	return args.length < 5 ? "Not enough arguments" : typeof args[4];
+	}
