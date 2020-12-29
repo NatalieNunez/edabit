@@ -8,11 +8,11 @@ function emotify(str) {
 Test.assertEquals(emotify("Make me smile"), "Make me :D")
 Test.assertEquals(emotify("Make me grin"), "Make me :)")
 Test.assertEquals(emotify("Make me sad"), "Make me :(")
-Test.assertEquals(emotify("Make me mad"), "Make me :P") */
+Test.assertEquals(emotify("Make me mad"), "Make me :P") 
 
 function emotify(str) {
-	let [first, mid, last] = str.split(" "); // splits the string at every space and returns as an array
-	
+  let [first, mid, last] = str.split(" "); // splits the string at every space and returns as an array
+  
 	let emotify = {
 		"smile": ":D",
 		"grin": ":)",
@@ -22,6 +22,6 @@ function emotify(str) {
 	
 	return `Make me ${emotify[last]}`;
 }
-/* The split() method divides a String into an ordered list of substrings, puts these 
+ The split() method divides a String into an ordered list of substrings, puts these 
 substrings into an array,and returns the array.  The division is done by searching 
-for a pattern; where the pattern is provided as the first parameter in the method's call. 
+for a pattern; where the pattern is provided as the first parameter in the method's call */
