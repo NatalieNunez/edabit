@@ -4,4 +4,7 @@ function greeting(name) {
   } else {
 		return "Hello, " + name + "!";
 	}
-}
+} // if else statement looks cleaner
+/* function greeting(name) {
+  return name === "Mubashir" ? "Hello, my Love!" : "Hello, " + name + "!";
+} */
