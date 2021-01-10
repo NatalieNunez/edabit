@@ -5,15 +5,15 @@
 .Directory {
   background-color: lightgray;
 }
-.Square{
-  width="100px";
-  height="100px";
-  background-color: red;
-  margin-left: auto;
-}
 .image {
   background-repeat: no-repeat;
 }
 .Shonen {
   background-color: rgb(255, 217, 0);
+}
+p {
+  font-size: xx-large;
+}
+.button {
+  color: rgb(59, 56, 56);
 }
