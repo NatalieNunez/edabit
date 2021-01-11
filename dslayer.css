@@ -17,3 +17,7 @@ p {
 .button {
   color: rgb(59, 56, 56);
 }
+button:hover {
+  background-color: red;
+  color: #fff;
+}
