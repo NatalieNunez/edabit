@@ -7,3 +7,7 @@ function countWords(str) {
   }
   return count;
 }
+/* function countWords(str) {
+	let arr = str.split(' ');
+	return arr.length;
+} */
