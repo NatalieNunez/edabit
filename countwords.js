@@ -11,3 +11,6 @@ function countWords(str) {
 	let arr = str.split(' ');
 	return arr.length;
 } */
+/* function countWords(str) {
+  return str.split(' ').length;
+} */ // refactored
