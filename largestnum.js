@@ -1,9 +1,10 @@
 function largestNumbers(n, arr) {
+  let newArr = [];
   arr.sort((a, b) => a - b);
-  for (let i = arr.length - 1; i < arr.length; i--) {
-    arr.shift() * (arr.length - n);
+  for (let i = arr[arr.length - 1 - n]; i < arr.length; i++) {
+    newArr.push(arr[i]);
   }
-  return arr;
+  return newArr;
 }
 /* input number and an array
 output array of numbers
