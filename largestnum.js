@@ -11,3 +11,6 @@ output array of numbers
 for loop, push numbers (indices) into new array
 the amount of numbers we push in should be equal to n (newarr.length = n)
 maybe sort? */
+/* function largestNumbers(n, arr) {
+	return arr.sort((a,b) => a - b).slice(arr.length-n);
+} */
