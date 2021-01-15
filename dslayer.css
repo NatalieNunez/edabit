@@ -1,7 +1,55 @@
-.Header {
-  background-color: rgb(43, 42, 42);
-  color: #fff;
+/*########## Defaults ############*/
+nav,
+header,
+footer {
+  display: block;
 }
+
+body {
+  line-height: 1;
+  margin: 0;
+}
+
+/*####### Nav bar ########*/
+
+nav {
+  width: 100%;
+  margin: 0;
+}
+
+nav ul {
+  background-color: rgb(43, 42, 42);
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+ul.topnav li {
+  list-style: none;
+  float: left;
+}
+
+ul.topnav li.categ {
+  display: block;
+  min-height: 26px;
+  color: rgba(255, 255, 255, 0.473);
+  text-align: center;
+  padding: 10px;
+}
+
+ul.topnav li a {
+  display: block;
+  min-height: 26px;
+  color: rgba(238, 238, 238, 0.795);
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+}
+
+ul.topnav li a:hover {
+  color: #ffffff;
+}
+
 .Directory {
   background-color: lightgray;
 }
