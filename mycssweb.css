@@ -117,11 +117,25 @@ ul.topnav li.dropdownIcon {
   background: linear-gradient(#076dff, #65a5ff);
 }
 
+.leftside-col {
+  margin-left: 30%;
+}
 h1.large {
   color: #fff;
   font-size: 56px;
   margin: 0;
   line-height: 70px;
+  padding: 5px;
+}
+
+form h2 {
+  color: #fff;
+}
+
+input[type="text"] {
+  font-size: 20px;
+  width: 400px;
+  min-width: 100px;
 }
 
 /*###### Mobile ######*/
