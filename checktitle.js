@@ -1,5 +1,5 @@
 function checkTitle(title) {
-  let splitArr = title.join(" ");
+  let splitArr = title.split(" ");
   let arr = [];
   for (let i = 0; i < splitArr.length; i++) {
     arr.push(splitArr[i][0]);
