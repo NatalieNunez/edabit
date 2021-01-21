@@ -13,4 +13,4 @@ function calculateScore(games) {
 	containers for abigails and bensons scores; compare their results (index 0 and 1)
 	update the value of their score depending on who wins, if strings are equal, increment both
 	after looping through each array and updating scores, compare the score variables and return the name of the winner
-	R > S; R < P; S > P
+	R > S; R < P; S > P */
