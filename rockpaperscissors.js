@@ -13,12 +13,10 @@ function calculateScore(games) {
           if (games[i][0] === "S" && games[i][1] === "R") {
             benScore++;
           }
-      if (games[i][0] === "R" && games[i][1] === "R")
-        if (games[i][0] === "P" && games[i][1] === "P")
-          if (games[i][0] === "S" && games[i][1] === "S") {
-            abScore++;
-            benScore++;
-          }
+      if (games[i][0] === games[i][1]) {
+        abScore++;
+        benScore++;
+      }
     }
   }
   if (abScore > benScore) {
