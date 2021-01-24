@@ -9,3 +9,4 @@ function reverseCase(str) {
     }
   }
 }
+// let i = 0;
