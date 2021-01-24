@@ -1,12 +1,11 @@
 function reverseCase(str) {
-  let revStr = "";
+  let output = [];
   for (let i = 0; i < str.length; i++) {
-    if (str[i] === str[i].toUpperCase) {
-      str[i].toLowerCase;
-    }
-    if (str[i] === str[i].toLowerCase) {
-      str[i].toUpperCase;
+    if (str[i] === str[i].toUpperCase()) {
+      output.push(str[i].toLowerCase());
+    } else if (str[i] === str[i].toLowerCase()) {
+      output.push(str[i].toUpperCase());
     }
   }
+  return output.join("");
 }
-// let i = 0;
