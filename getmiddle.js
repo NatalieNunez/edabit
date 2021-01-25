@@ -5,3 +5,16 @@ function getMiddle(str) {
     return str.substr(Math.floor(str.length - 1) / 2, 2);
   }
 }
+
+/*
+##### Instructions #####
+Create a function that takes a string and returns the middle character(s). 
+If the word's length is odd, return the middle character. 
+If the word's length is even, return the middle two characters.
+
+##### Examples ####
+getMiddle("test") ➞ "es"
+getMiddle("testing") ➞ "t"
+getMiddle("middle") ➞ "dd"
+
+*/
