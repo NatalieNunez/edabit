@@ -10,3 +10,13 @@ function reverseOdd(str) {
   }
   return newArr.join(" ");
 }
+
+/*
+##### Instructions #####
+Given a string, reverse all the words which have odd length. 
+The even length words are not changed
+
+##### Examples #####
+reverseOdd("Bananas") ➞ "sananaB"
+reverseOdd("One two three four") ➞ "enO owt eerht four"
+*/
