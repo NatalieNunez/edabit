@@ -17,4 +17,11 @@ getMiddle("test") ➞ "es"
 getMiddle("testing") ➞ "t"
 getMiddle("middle") ➞ "dd"
 
+##### Refactored #####
+function getMiddle(str) {
+  var start = Math.ceil(str.length / 2) - 1;
+  var end = Math.floor(str.length / 2) + 1;
+  return str.substring(start, end);
+}
+
 */
