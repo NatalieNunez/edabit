@@ -20,3 +20,15 @@ function correctTitle(str) {
   }
   return newArr.join(" ");
 }
+
+// ##### Instructions ######
+// Write a function that takes a string and returns a string with the correct case for character titles in the Game of Thrones series.
+
+// The words and, the, of and in should be lowercase.
+// All other words should have the first character as uppercase and the rest lowercase.
+
+// ##### Examples #####
+// correctTitle("jOn SnoW, kINg IN thE noRth.")
+// ➞ "Jon Snow, King in the North."
+// correctTitle("sansa stark, lady of winterfell.")
+// ➞ "Sansa Stark, Lady of Winterfell."
