@@ -1,13 +1,13 @@
 function correctTitle(str) {
-  let arr = str.split(" ");
-  let newArr = [];
+  let arr = str.split(" "); // i need to split at spaces AND hyphens but dont know how to do both
+  let newArr = []; //
   let indexArr = [];
   let store = [];
   for (let i = 0; i < arr.length; i++) {
     if (arr[i] === "and" || "the" || "of" || "in") {
       newArr.push(arr[i].toLowerCase());
     } else {
-      let indexArr = arr[i].split("");
+      let indexArr = arr[i].split(""); // created this array so i can make the strings in arr become their own arrays
     }
     for (let j = 0; j < indexArr.length; j++) {
       if (indexArr[j] < 1) {
@@ -32,3 +32,5 @@ function correctTitle(str) {
 // ➞ "Jon Snow, King in the North."
 // correctTitle("sansa stark, lady of winterfell.")
 // ➞ "Sansa Stark, Lady of Winterfell."
+
+// currently code returns everything as lowercase***** find out why
