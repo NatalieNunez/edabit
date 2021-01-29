@@ -12,8 +12,12 @@ function correctTitle(str) {
     for (let j = 0; j < indexArr.length; j++) {
       if (indexArr[j] < 1) {
         store.push(indexArr[j].toUpperCase());
-      } else if (index[j] >= 1) {
+      }
+      if (indexArr[j] >= 1) {
         store.push(indexArr[j].toLowerCase());
+      }
+      if (indexArr[j] === "-") {
+        store.push(indexArr[j + 1].toUpperCase());
       }
       newArr.push(store);
     }
