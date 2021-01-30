@@ -10,14 +10,13 @@ function correctTitle(str) {
       let indexArr = arr[i].split("");
     }
     for (let j = 0; j < indexArr.length; j++) {
-      if (indexArr[j] === indexArr[0]) {
-        store.push(indexArr[j].toUpperCase());
-      }
       if (indexArr[j] !== indexArr[0]) {
         store.push(indexArr[j].toLowerCase());
       }
       if (indexArr[j] === "-") {
         store.push(indexArr[j + 1].toUpperCase());
+      } else {
+        store.push(indexArr[0].toUpperCase());
       }
       newArr.push(store);
     }
