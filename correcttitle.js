@@ -3,6 +3,7 @@ function correctTitle(str) {
   let newArr = [];
   let indexArr = [];
   let store = [];
+  let uselessVariable = [];
   for (let i = 0; i < arr.length; i++) {
     if (arr[i] === "and" || "the" || "of" || "in") {
       newArr.push(arr[i].toLowerCase());
