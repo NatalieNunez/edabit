@@ -23,6 +23,7 @@ function correctTitle(str) {
   }
   return newArr.join(" ");
 }
+//why don't i understand..?
 
 // ##### Instructions ######
 // Write a function that takes a string and returns a string with the correct case for character titles in the Game of Thrones series.
