@@ -24,6 +24,58 @@ function correctTitle(str) {
   }
   return newArr.join(" ");
 }
+
+let obj1 = 
+    {
+  "name": "Matthew",
+  "lastName": "Chen",
+  "age": 30,
+  "hobbies": {
+    "one": "tennis",
+    "two": "golf",
+    "three": "video games"
+    },
+  "style": 'none'
+  }
+
+
+obj1.name; //accessing a property 
+obj1.hobbies.two;
+obj1[0].name
+obj1.style = 'none'; //adding a property 
+obj1.hobbies.one = 'vegetating' //update (change) a property
+
+delete obj1.name; // deleting (removing) a property
+
+//CRUD, Create, Read, Update, Delete
+
+
+//for in loop 
+
+for(const key in obj1){
+  console.log(obji[key]);
+}
+//Matthew 
+//Chen 
+//30
+//{...}
+//none
+
+//filmCredits
+// writer: "Phil D. Page",
+// director: "Silas Onda Sett",
+// producer: "Maximus Budgitt",
+// intern: "Minnie Mumbwaige"
+
+//writer
+//director
+//producer
+//intern
+
+//Phil D. Page as writer 
+//Silas Onda Sett as director 
+
+
 //why don't i understand..?
 
 // ##### Instructions ######
