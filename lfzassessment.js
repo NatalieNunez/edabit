@@ -14,7 +14,6 @@ let stats = {}; // step 6
 function getStats(statsObj, numbersArr){ // step 7ab
     let arrTotal = 0;
     let largeNum = 0;
-    let arrAverage = arrTotal/numbersArr.length;
   for (let i = 0; i < numbersArr.length; i++) { //7c
     if (numbersArr[i] >= largeNum) {
       largeNum = numbersArr[i];
@@ -23,6 +22,7 @@ function getStats(statsObj, numbersArr){ // step 7ab
   }
   for (let i = 0; i < numbersArr.lenght; i++) { //7d
     arrTotal += numbersArr[i];
+    let arrAverage = arrTotal/numbersArr.length;
   } 
   statsObj.averageNum = arrAverage;
   return statsObj;
