@@ -13,18 +13,16 @@ let stats = {}; // step 6
 
 function getStats(statsObj, numbersArr){ // step 7ab
     let arrTotal = 0;
-    let arrAverage = 0;
-    let largNum = 0;
-  for (let i = 0; i < numbersArr.length; i++) {
-    if (numbersArr[i] >= largNum) {
-      largNum = numbersArr[i];
+    let largeNum = 0;
+    let arrAverage = arrTotal/numbersArr.length;
+  for (let i = 0; i < numbersArr.length; i++) { //7c
+    if (numbersArr[i] >= largeNum) {
+      largeNum = numbersArr[i];
     }
-    statsObj.largestNum = largNum;
+    statsObj.largestNum = largeNum;
   }
-  for (let i = 0; i < numbersArr.lenght; i++) {
-    arrTotal = arrTotal + numbersArr[i];
-    arrAverage = (arrTotal/numbersArr.length);
-    console.log(arrAverage);
+  for (let i = 0; i < numbersArr.lenght; i++) { //7d
+    arrTotal += numbersArr[i];
   } 
   statsObj.averageNum = arrAverage;
   return statsObj;
