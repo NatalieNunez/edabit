@@ -1,23 +1,23 @@
-let counter = 10; // step 1
-let numbers = []; // step 2
+let counter = 10;
+let numbers = [];
 for (let i = 0; i < 10; i++) {
   numbers.push(counter+=73);
-} // step 3
-console.log(numbers); // step 4
+}
+console.log(numbers);
 if (counter > 740) {
   console.log("Maximum array number exceeded");
 } else {
  console.log("Array values within specification");
-} // step 5
-let stats = {}; // step 6
+}
+let stats = {};
 
-function getStats(statsObj, numbersArr){ // step 7ab
-    let largNum = 0;
+function getStats(statsObj, numbersArr){
+    let largeNum = 0;
   for (let i = 0; i < numbersArr.length; i++) {
-    if (numbersArr[i] >= largNum) {
-      largNum = numbersArr[i];
+    if (numbersArr[i] >= largeNum) {
+      largeNum = numbersArr[i];
     }
-    statsObj.largestNum = largNum;
+    statsObj.largestNum = largeNum;
   }
     let arrTotal = 0;
   for (let i = 0; i < numbersArr.length; i++) {
@@ -30,4 +30,4 @@ function getStats(statsObj, numbersArr){ // step 7ab
 }
 getStats(stats, numbers)
  let returnedStats = stats;
- console.log(`The largest number was ${returnedStats.largestNum} and the average of all the numbers was ${returnedStats.averageNum}`);
+ console.log("The largest number was " + returnedStats.largestNum + " and the average of all the numbers was " + returnedStats.averageNum);
