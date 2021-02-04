@@ -28,6 +28,6 @@ function getStats(statsObj, numbersArr){ // step 7ab
   statsObj.averageNum = arrAverage;
   return statsObj;
 }
-getStats(stats, numbers);
+getStats(stats, numbers)
  let returnedStats = stats;
-  console.log(returnedStats); 
+ console.log(`The largest number was ${returnedStats.largestNum} and the average of all the numbers was ${returnedStats.averageNum}`);
