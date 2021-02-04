@@ -12,19 +12,22 @@ if (counter > 740) {
 let stats = {}; // step 6
 
 function getStats(statsObj, numbersArr){ // step 7ab
-    let arrTotal = 0;
-    let largeNum = 0;
-  for (let i = 0; i < numbersArr.length; i++) { //7c
-    if (numbersArr[i] >= largeNum) {
-      largeNum = numbersArr[i];
+    let largNum = 0;
+  for (let i = 0; i < numbersArr.length; i++) {
+    if (numbersArr[i] >= largNum) {
+      largNum = numbersArr[i];
     }
-    statsObj.largestNum = largeNum;
+    statsObj.largestNum = largNum;
   }
-  for (let i = 0; i < numbersArr.lenght; i++) { //7d
+    let arrTotal = 0;
+  for (let i = 0; i < numbersArr.length; i++) {
     arrTotal += numbersArr[i];
-    let arrAverage = arrTotal/numbersArr.length;
   } 
+  let numLength = numbersArr.length;
+  let arrAverage = arrTotal / numLength;
   statsObj.averageNum = arrAverage;
   return statsObj;
 }
-console.log(getStats(stats, numbers));
+getStats(stats, numbers);
+ let returnedStats = stats;
+  console.log(returnedStats); 
