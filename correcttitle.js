@@ -3,7 +3,6 @@ function correctTitle(str) {
   let newArr = [];
   let indexArr = [];
   let store = [];
-  let uselessVariable = [];
   for (let i = 0; i < arr.length; i++) {
     if (arr[i] === "and" || "the" || "of" || "in") {
       newArr.push(arr[i].toLowerCase());
@@ -25,36 +24,36 @@ function correctTitle(str) {
   return newArr.join(" ");
 }
 
-let obj1 = 
-    {
-  "name": "Matthew",
-  "lastName": "Chen",
-  "age": 30,
-  "hobbies": {
-    "one": "tennis",
-    "two": "golf",
-    "three": "video games"
-    },
-  "style": 'none'
-  }
+// let obj1 = 
+//     {
+//   "name": "Matthew",
+//   "lastName": "Chen",
+//   "age": 30,
+//   "hobbies": {
+//     "one": "tennis",
+//     "two": "golf",
+//     "three": "video games"
+//     },
+//   "style": 'none'
+//   }
 
 
-obj1.name; //accessing a property 
-obj1.hobbies.two;
-obj1[0].name
-obj1.style = 'none'; //adding a property 
-obj1.hobbies.one = 'vegetating' //update (change) a property
+// obj1.name; //accessing a property 
+// obj1.hobbies.two;
+// obj1[0].name
+// obj1.style = 'none'; //adding a property 
+// obj1.hobbies.one = 'vegetating' //update (change) a property
 
-delete obj1.name; // deleting (removing) a property
+// delete obj1.name; // deleting (removing) a property
 
-//CRUD, Create, Read, Update, Delete
+// //CRUD, Create, Read, Update, Delete
 
 
-//for in loop 
+// //for in loop 
 
-for(const key in obj1){
-  console.log(obji[key]);
-}
+// for(const key in obj1){
+//   console.log(obji[key]);
+// }
 //Matthew 
 //Chen 
 //30
