@@ -3,3 +3,9 @@ function nameString(name){
 	let result = name + b;
   	return result;
 }
+/*
+##### TESTS #####
+nameString("Mubashir") ➞ "MubashirEdabit"
+nameString("Matt") ➞ "MattEdabit"
+nameString("javaScript") ➞ "javaScriptEdabit"
+*/
